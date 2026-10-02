@@ -24,7 +24,7 @@ Este repositorio contiene mis notas de estudio, ejercicios prácticos, tareas (*
 
 El proyecto está gestionado con **[uv](https://github.com/astral-sh/uv)** para la administración rápida y reproducible de dependencias y entornos virtuales de Python.
 
-- **Python:** 3.12
+- **Python:** 3.11
 - **Librerías principales:** `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `jupyterlab`, `ipykernel`.
 
 ---
