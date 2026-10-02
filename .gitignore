@@ -1,4 +1,4 @@
-# Entornos virtuales
+# Virtual environments
 .venv/
 venv/
 env/
@@ -6,7 +6,7 @@ ENV/
 env.bak/
 venv.bak/
 
-# Bytecode y caches de Python
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,21 +20,21 @@ htmlcov/
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
-# Variables de entorno y secretos
+# Environment variables and secrets
 .env
 .env.local
 .env.*.local
 *.env
 
-# Cache de herramientas
+# Tool caches
 .uv/
 
-# Archivos del sistema operativo
+# Operating system files
 Thumbs.db
 Desktop.ini
 .DS_Store
 
-# IDEs (opcional/personal)
+# IDE and editor files
 .idea/
 *.swp
 *.swo

@@ -1,7 +1,7 @@
 [project]
 name = "ml-zoomcamp-2026"
 version = "0.1.0"
-description = "Notas, ejercicios, tareas y proyectos de Machine Learning Zoomcamp 2026 de DataTalks.Club"
+description = "Notes, exercises, homework, and projects for DataTalks.Club's Machine Learning Zoomcamp 2026"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

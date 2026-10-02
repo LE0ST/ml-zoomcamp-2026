@@ -1,42 +1,42 @@
 # Machine Learning Zoomcamp 2026
 
-Este repositorio contiene mis notas de estudio, ejercicios prácticos, tareas (*homework*) y proyectos desarrollados durante el curso **[Machine Learning Zoomcamp 2026](https://github.com/DataTalksClub/machine-learning-zoomcamp)** impartido por **DataTalks.Club**.
+This repository contains my study notes, hands-on exercises, homework assignments, and projects developed throughout the **[Machine Learning Zoomcamp 2026](https://github.com/DataTalksClub/machine-learning-zoomcamp)** course provided by **DataTalks.Club**.
 
 ---
 
-## 📌 Estructura del Repositorio
+## 📌 Repository Structure
 
-- **`01-intro/`** — Introducción a Machine Learning y preparación del entorno.
-- **`02-regression/`** — Modelos de regresión y predicción de precios.
-- **`03-classification/`** — Modelos de clasificación y predicción de abandono (*churn*).
-- **`04-evaluation/`** — Métricas de evaluación para modelos de clasificación.
-- **`05-deployment/`** — Despliegue de modelos como servicios web (FastAPI, Docker).
-- **`06-trees/`** — Árboles de decisión, Random Forest y Gradient Boosting.
-- **`midterm-project/`** — Proyecto intermedio (*Midterm Project*).
-- **`08-deep-learning/`** — Redes neuronales y Deep Learning para visión computacional.
-- **`09-serverless/`** — Despliegue de modelos en entornos *Serverless* (AWS Lambda).
-- **`10-kubernetes/`** — Despliegue y escalado con Kubernetes y TensorFlow Serving.
-- **`capstone-project/`** — Proyecto final (*Capstone Project*).
+- **`01-intro/`** — Introduction to Machine Learning and environment setup.
+- **`02-regression/`** — Regression models and price prediction.
+- **`03-classification/`** — Classification models and customer churn prediction.
+- **`04-evaluation/`** — Evaluation metrics for classification models.
+- **`05-deployment/`** — Deploying models as web services (FastAPI, Docker).
+- **`06-trees/`** — Decision trees, Random Forest, and Gradient Boosting.
+- **`midterm-project/`** — Midterm Project.
+- **`08-deep-learning/`** — Neural networks and Deep Learning for computer vision.
+- **`09-serverless/`** — Serverless model deployment (AWS Lambda).
+- **`10-kubernetes/`** — Scalable deployment with Kubernetes and TensorFlow Serving.
+- **`capstone-project/`** — Capstone Project.
 
 ---
 
-## 🛠️ Tecnologías y Entorno
+## 🛠️ Tech Stack & Environment
 
-El proyecto está gestionado con **[uv](https://github.com/astral-sh/uv)** para la administración rápida y reproducible de dependencias y entornos virtuales de Python.
+This project uses **[uv](https://github.com/astral-sh/uv)** for fast, reliable, and reproducible Python package and environment management.
 
 - **Python:** 3.11
-- **Librerías principales:** `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `jupyterlab`, `ipykernel`.
+- **Core libraries:** `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `jupyterlab`, `ipykernel`.
 
 ---
 
-## 🚀 Cómo reproducir este entorno
+## 🚀 How to Reproduce This Environment
 
-1. Clonar el repositorio.
-2. Instalar las dependencias sincronizadas con `uv`:
+1. Clone this repository.
+2. Install and synchronise dependencies with `uv`:
    ```bash
    uv sync
    ```
-3. Iniciar JupyterLab:
+3. Launch JupyterLab:
    ```bash
    uv run jupyter lab
    ```
