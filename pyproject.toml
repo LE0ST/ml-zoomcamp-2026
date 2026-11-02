@@ -12,6 +12,7 @@ dependencies = [
     "pandas",
     "scikit-learn",
     "seaborn",
+    "xgboost==3.2.0",
 ]
 
 [tool.uv]
